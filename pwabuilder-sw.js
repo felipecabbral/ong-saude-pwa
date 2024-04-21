@@ -1,5 +1,4 @@
-
-  
+<link rel="manifest" href="/manifest.json"/>
 
 
 const CACHE = "pwabuilder-offline-v2";
