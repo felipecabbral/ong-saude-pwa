@@ -1,0 +1,77 @@
+{
+  "background_color": "#b74e91",
+  "dir": "ltr",
+  "display": "fullscreen",
+  "name": "ongsaude",
+  "orientation": "portrait",
+  "scope": "/",
+  "short_name": "ong",
+  "start_url": "/index.html",
+  "theme_color": "#312450",
+  "description": "Esse é um app de uma ong que cuida da saúde",
+  "categories": [
+    "fitness",
+    "health",
+    "lifestyle",
+    "medical",
+    "social"
+  ],
+
+  "screenshots": [
+    {
+      "src": "https://www.pwabuilder.com/assets/screenshots/screen1.png",
+      "sizes": "2880x1800",
+      "type": "image/png",
+      "description": "PWABuilder Home Screen"
+    },
+    
+    {
+      "src": "https://www.pwabuilder.com/assets/screenshots/screen3.png",
+      "sizes": "2880x1800",
+      "type": "image/png",
+      "description": "Manifest information on the Report Card"
+    }
+    ], 
+      "icons": [
+        {"src": "AppIcons/Assets.xcassets/AppIcon.appiconset/_/180.png",
+        "sizes": "180x180",
+        "type": "image/png",
+        "purpose": "any"},
+        {
+          "src": "AppIcons/Assets.xcassets/AppIcon.appiconset/_/1024.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+          "src": "AppIcons/Assets.xcassets/AppIcon.appiconset/_/140.png",
+            "sizes": "140x140",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {"src": "AppIcons/Assets.xcassets/AppIcon.appiconset/_/120.png",
+        "sizes": "120x120",
+        "type": "image/png"},
+    {"src": "AppIcons/Assets.xcassets/AppIcon.appiconset/_/60.png",
+        "sizes": "60x60",
+        "type": "image/png"},
+    
+        {"src": "AppIcons/Assets.xcassets/AppIcon.appiconset/_/40.png",
+        "sizes": "40x40",
+        "type": "image/png"}
+      ],
+        "shortcuts": [
+      {
+        "name": "About",
+        "url": "/about"
+      },
+      {
+        "name": "Send Message",
+        "url": "/new-message",
+        "description": "Open a chat with another user and send a message to them."
+      }
+    ],
+      "lang": "pt",
+      "display_override": [
+        "window-controls-overlay"
+      ]
+    }
